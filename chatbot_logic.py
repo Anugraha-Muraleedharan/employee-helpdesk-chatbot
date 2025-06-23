@@ -1,6 +1,6 @@
 import openai
 
-client = openai.OpenAI(api_key="sk-your-real-api-key")
+client = openai.OpenAI(api_key="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")
 
 def get_chatbot_response(user_input):
     response = client.chat.completions.create(
